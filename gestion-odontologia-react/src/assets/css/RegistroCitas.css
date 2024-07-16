@@ -1,0 +1,78 @@
+/* src/assets/css/RegistroCitas.css */
+.appointment-scheduler-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .appointment-scheduler-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .appointment-scheduler-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .appointment-scheduler-form input[type="date"],
+  .appointment-scheduler-form input[type="time"],
+  .appointment-scheduler-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .appointment-scheduler-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .appointment-scheduler-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .appointment-list {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .appointment-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .appointment-item p {
+    margin: 5px 0;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  

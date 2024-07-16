@@ -1,0 +1,59 @@
+/* src/styles/PatientRegistration.css */
+.patient-registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .patient-registration-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .patient-registration-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .patient-registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .patient-registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .patient-registration-form button:hover {
+    background-color: #1f6475;
+  }
+  #back-button {
+    background-color: #000000;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 10%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  #back-button:hover {
+    background-color: #69aec4;
+  }
+  

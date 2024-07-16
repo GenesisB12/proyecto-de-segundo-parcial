@@ -1,0 +1,168 @@
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: #0056b3;
+  padding: 10px 20px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el contenido principal */
+.main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: max-content;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url('../image/fondo.png') no-repeat center center/cover;
+  color: white;
+  padding: 40px 20px;
+  width: 1250px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin: 0 auto; /* Center horizontally */
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto; /* Center horizontally */
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.hero-content .btn-primary {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.hero-image {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* About Section */
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  margin: 0 auto; /* Center horizontally */
+  text-align: center;
+}
+
+.about-content {
+  max-width: 600px;
+  margin: 0 auto; /* Center horizontally */
+}
+
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.about-content .btn-secondary {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.about-image {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  margin: 0 auto; /* Center horizontally */
+}
+
+.contact-content {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto; /* Center horizontally */
+}
+
+.contact-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-content .btn-primary {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.contact-section iframe {
+  margin-top: 20px;
+  border: 0;
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border-radius: 10px;
+  margin: 0 auto; /* Center horizontally */
+}

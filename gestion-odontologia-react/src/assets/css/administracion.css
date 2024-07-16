@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.administracion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../image/fondoAdmin2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a8c6d491;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.panel a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    background-color: #0075a38e;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.panel a:hover {
+    color: #beb4b4;
+    background-color: aqua;
+}
+
+.Logo{
+    width: auto;
+    height: 80px;
+    margin-bottom: 20px;
+  }
